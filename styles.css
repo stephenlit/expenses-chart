@@ -51,6 +51,22 @@ body {
   padding: 1.25rem;
   border-radius: 1rem;
   color: var(--very-pale-orange);
+}
+
+.graph {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: 250px, 1fr;
+}
+
+.bar div:nth-child(1){
+  align-self: end;
+  height: 50%;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  background: red;
+}
+
 
 
 .balance-title {
