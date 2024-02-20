@@ -31,7 +31,7 @@ Users should be able to:
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
 
 ### Screenshot
-  ![](./images/screenshot.png)
+  ![](./images/Screenshot.png)
 
 
 ### Links
