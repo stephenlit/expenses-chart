@@ -92,6 +92,7 @@ body {
 .label {
     width: 100%;
     text-align: center;
+    color: var(--medium-brown)
 }
 
 .total-container {
