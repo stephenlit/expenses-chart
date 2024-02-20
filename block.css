@@ -27,14 +27,13 @@ body {
     width: 100%;
     height: 100svh;
     background: var(--cream);
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
 }
 
 .wrapper {
     width: 28rem;
     height: 30rem;
-    margin: 0 1rem;
 }
 
 .balance-container {
@@ -47,23 +46,23 @@ body {
     color: var(--very-pale-orange);
 }
 
-.balance-amount div:nth-child(1){
-    font-size: .75rem;
+.balance-amount div:nth-child(1) {
+    font-size: 0.75rem;
 }
 
-.balance-amount div:nth-child(2){
+.balance-amount div:nth-child(2) {
     font-weight: bold;
     font-size: 1.25rem;
 }
 
-.body-container {
+main {
     background: white;
     padding: 1.5rem 1.5rem 0 1.5rem;
     margin-top: 1rem;
     border-radius: 1rem;
 }
 
-.graph-heading {
+h1 {
     font-size: 1.5rem;
     letter-spacing: 2px;
     margin: 2rem 0;
@@ -84,15 +83,34 @@ body {
     height: 100%;
 }
 
+
 .percent {
+    position: relative;
     height: 50%;
     background: var(--soft-red);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 }
+
+.total_hover {
+    position: absolute;
+    display: none;
+    top: -1.75rem;
+    font-size: 1rem;
+    background: var(--dark-brown);
+    color: var(--very-pale-orange);
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.percent:hover  .total_hover {
+    display:block;
+}
+
 .label {
     width: 100%;
     text-align: center;
-    color: var(--medium-brown)
+    color: var(--medium-brown);
 }
 
 .total-container {
@@ -124,7 +142,7 @@ body {
     justify-content: flex-end;
 }
 
-.stats div:nth-child(1){
+.stats div:nth-child(1) {
     color: black;
     font-weight: bold;
 }
@@ -133,4 +151,3 @@ body {
     font-size: 1rem;
     color: var(--medium-brown);
 }
-

@@ -58,6 +58,11 @@ totals.innerHTML = `$${totalResults}`;
 data.map((day) => {
   let barDiv = document.createElement("div");
   barDiv.classList.add("bar");
+  
+  let total_hover = document.createElement("div");
+  total_hover.classList.add("total_hover");
+  total_hover.innerText = day.amount;
+
   let percentDiv = document.createElement("div");
   
   percentDiv.classList.add("percent");
@@ -66,9 +71,11 @@ data.map((day) => {
   if (day.day === currentDay) {
     percentDiv.setAttribute("style", "background:var(--cyan)");
   }
+  percentDiv.appendChild(total_hover);
   let labelDiv = document.createElement("div");
   labelDiv.classList.add("label");
   labelDiv.innerText = day.day;
+  
   barDiv.appendChild(percentDiv);
   barDiv.appendChild(labelDiv);
 

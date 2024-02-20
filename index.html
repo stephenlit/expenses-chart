@@ -1,42 +1,42 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link rel="stylesheet" href="block.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-  <body>
-    <div class="wrapper">
-      <div class="balance-container">
-        <div class="balance-amount">
-          <div>My Balance</div>
-          <div>$500.00</div>
-        </div>
-        <img src="images/logo.svg" alt="" />
+  <link rel="stylesheet" href="block.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <section class="balance-container">
+      <div class="balance-amount">
+        <div>My Balance</div>
+        <div>$500.00</div>
       </div>
-      <div class="body-container">
-        <div class="graph-heading">Spending - Last 7 days</div>
-        <div class="graph"></div>
+      <img src="images/logo.svg" alt="" />
+    </section>
+    <main>
+      <h1>Spending - Last 7 days</h1>
+      <div class="graph"></div>
 
-        <div class="total-container">
-          <div class="total">Total this month <span class="totals">$478.33</span></div>
-          <div class="stats">
-            <div>+2.4%</div>
-            <div>from last month</div>
-          </div>
+      <section class="total-container">
+        <div class="total">Total this month <span class="totals">$478.33</span></div>
+        <div class="stats">
+          <div>+2.4%</div>
+          <div>from last month</div>
         </div>
-      </div>
-    </div>
+      </section>
+      <footer></footer>
+    </main>
+  </div>
+  <script src="./barGraph.js"></script>
+</body>
 
-    <script src="./barGraph.js"></script>
-  </body>
 </html>
