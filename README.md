@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/stephenlit/expenses-chart.git](https://github.com/stephenlit/expenses-chart.git)
-- Live Site URL: [https://stephenlit.github.io/expenses-chart/](https://your-live-site-url.com)
+- Live Site URL: [https://stephenlit.github.io/expenses-chart/](https://stephenlit.github.io/expenses-chart/)
 
 ## My process
 
